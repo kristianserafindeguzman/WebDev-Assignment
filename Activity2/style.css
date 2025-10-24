@@ -21,8 +21,6 @@ body {
 	width: 380px; 
 	transition: transform 200ms ease, box-shadow 200ms ease;
 }
-.card h2 { color: #235b3a; }
-.card p  { margin: 0 0 12px; color: #4a7a5a; }
 
 /* Card hover effect */
 .card:hover {
@@ -58,8 +56,8 @@ button:hover {
 	transform: translateY(-2px);
 }
 
-/* Small adjustments 
+/* Small adjustments */
 h2 { margin: 10px 0 4px; }
-p { margin: 0 0 12px; color: #555; }
-
-*/
+/* Make the card title and subtitle complementary dark greens */
+.card h2 { color: #235b3a; }
+.card p { margin: 0 0 12px; color: #4a7a5a; }
